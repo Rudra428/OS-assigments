@@ -1,0 +1,83 @@
+
+Producer produced: 1
+3 prodcons: unknown sys call 23
+Producer produced: 2
+3 prodcons: unknown sys call 23
+Consumer consumed: 1
+4 prodcons: unknown sys call 23
+Producer produced: 3
+3 prodcons: unknown sys call 23
+Producer produced: 4
+3 prodcons: unknown sys call 23
+Consumer consumed: 2
+4 prodcons: unknown sys call 23
+Producer produced: 5
+3 prodcons: unknown sys call 23
+Consumer consumed: 3
+4 prodcons: unknown sys call 23
+Producer produced: 6
+3 prodcons: unknown sys call 23
+Consumer consumed: 4
+4 prodcons: unknown sys call 23
+Consumer consumed: 5
+4 prodcons: unknown sys call 23
+Producer produced: 7
+3 prodcons: unknown sys call 23
+Consumer consumed: 6
+4 prodcons: unknown sys call 23
+Producer produced: 8
+3 prodcons: unknown sys call 23
+Consumer consumed: 7
+4 prodcons: unknown sys call 23
+Producer produced: 9
+3 prodcons: unknown sys call 23
+Consumer consumed: 8
+4 prodcons: unknown sys call 23
+Producer produced: 10
+3 prodcons: unknown sys call 23
+Consumer consumed: 9
+4 prodcons: unknown sys call 23
+Producer produced: 11
+3 prodcons: unknown sys call 23
+Consumer consumed: 10
+4 prodcons: unknown sys call 23
+Producer produced: 12
+3 prodcons: unknown sys call 23
+Consumer consumed: 11
+4 prodcons: unknown sys call 23
+Producer produced: 13
+3 prodcons: unknown sys call 23
+Consumer consumed: 12
+4 prodcons: unknown sys call 23
+Producer produced: 14
+3 prodcons: unknown sys call 23
+Consumer consumed: 13
+4 prodcons: unknown sys call 23
+Producer produced: 15
+3 prodcons: unknown sys call 23
+Consumer consumed: 14
+4 prodcons: unknown sys call 23
+Producer produced: 16
+3 prodcons: unknown sys call 23
+Consumer consumed: 15
+4 prodcons: unknown sys call 23
+Consumer consumed: 16
+4 prodcons: unknown sys call 23
+Producer produced: 17
+3 prodcons: unknown sys call 23
+Consumer consumed: 17
+4 prodcons: unknown sys call 23
+Producer produced: 18
+3 prodcons: unknown sys call 23
+Producer produced: 19
+3 prodcons: unknown sys call 23
+Producer produced: 20
+3 prodcons: unknown sys call 23
+Consumer consumed: 18
+4 prodcons: unknown sys call 23
+Consumer consumed: 19
+4 prodcons: unknown sys call 23
+Consumer consumed: 20
+4 prodcons: unknown sys call 23
+Production and Consumption complete.
+$

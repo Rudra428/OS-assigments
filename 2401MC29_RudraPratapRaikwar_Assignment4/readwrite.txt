@@ -1,0 +1,13 @@
+
+Starting 3 Readers and 2 Writers...
+[92] Reader 1 (PID 4) read: 0 | Active Readers[9: 1
+2[]9 2R]e aRdeader 3 (PID 6) read: 0 | Active er 2 (PID 5) read: 0 | Active Readers: 2
+Readers: 3
+[96] Writer 1 (PID 7) WROTE: 1 | (Exclusive Access)
+[104] Writer 2 (PID 8) WROTE: 2 | (Exclusive Access)
+[112] Reader 1 (PID 4) read: 2 | Active Readers: 1
+[112] Reader 2 (PID 5) rea[d1:1 2 | Active Readers: 2
+2] Reader 3 (PID 6) read: 2 | Active Readers: 3
+[116] Writer 1 (PID 7) WROTE: 3 | (Exclusive Access)
+[124] Writer 2 (PID 8) WROTE: 4 | (Exclusive Access)
+All reading and writing complete. Final data value: 4

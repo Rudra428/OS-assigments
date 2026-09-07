@@ -1,0 +1,107 @@
+Starting Dining Philosophers (5 Philosophers, 5 Cycles each)...
+[57[5]7[ P5h7i[[5l7o]s o5p7h]]ePrh i0l ]P:ohi l sToo HpIsNhPKPIeNr 1: THG (cIyclNeK 1/Io5Nhpihle)r
+Go  (2:chsyo THINKIcNiGl e( l1ph/c5y)e
+colseo r1p/h5er 3: THIN)K
+I N4G:  (TcHycIlNeK I1N/5)
+G (cycle 1/5)
+[[[6611][]  P6hiPhliol6o1] Philosopher 3: ssoop1h]e prh e1P:h rH UHN0GUR:Y iH
+lU[oN6GRY
+1s]o phNPhGRY
+[61] Philosopheierr l2o: s o3p:[ h6eHErU2 N1A:T IEGARTY]I
+NG witNhG f owri tPhh iflorks k1s  a3n da n2d
+ o4
+sopher 4: HUNGRY
+[[6[6666] ]6P] Phi lh[6i6lPohossoiplhoesorpoph e0r:h EATING weirt  21::  FINhISE]  fHPohrEAiks 0 and 1
+D EATINTING wGl
+i[t67] Philh ofsoorpkhso er 1: THINKING (cycle 2/5)
+2 and 3
+sopher 3: FINISHED EATING
+[67] Philosopher 3: THINKING (cycle 2/5)
+[70] P[70][h7ilosopher0 0: FINISHED EATING
+[70] Philosopher  0P:]h iPhliolsoop THINKIhNsGe r(cycle 2/5o) p1h:e
+r  4HU[71] Philosopher 3:[ HUNNGRGY
+R[717]1 P]Yh
+i P:h iElAoTslooIpshoeprh 1: EATING with forkesN G1 ra n2d: FINISHED  2
+EATwING
+[72] Philosopher 2: THINKING (cycle 2/5)
+ith forks 0 and 4
+[73] Philosopher 0: HUNGRY
+[75] Ph[il7os5] opher 2: HUNGRPY
+hilosopher 1: FINISHED EATING
+[75] Philosopher 1: THINKING (cycle 3/5)[[[76] Ph7i
+l6osopher 0: EAT7I6]N]G   PwhiiPtlhoh sforks 0 and 1
+opher 3: EATING with fiorks 3 and 4
+losopher 4: FINISHED EATING
+[77] Philosopher 4: THINKING (cycle 2/5)
+[79] Philosopher 1: HUNGRY
+[[[80[8]08]0  ]P hPilosopher 2: EATING hPihilosophlwe8r0 o3: sioth fopher rks 02:  FaIFndI]NN I S3H
+ISEHPD EATING
+ED [E8A0T]I NPGh
+i[8l1hio]l sooPhilposophheerr  0: TH3sIoNpKIN:h Ge (cryTcHlI eN 43:/K5)
+I NGH U(cycleN G3R/Y5
+)
+[81] Philosopher 4: EATING with forks 0 and 4
+[8[4[]8 4P]h 8iP4lhosopher 0: HUNGRY
+ilo][s Pohp8hielosorp h1e:r  E2A: FINISHED T4IEN]AG wTiItN Gh forks
+P 1 an[h8d4] Phil os2o
+pihler o2s:o pTher H3I:N KHIUNNGGRY
+(cycle 3/5)
+[[8866]] P Phihliosloospher 3o:p hEeArTING with forks 3 and  44
+: FINISHED EATING
+[86] Philosopher 4: THINKING (cycle 3/5)
+[88] Philosopher 2: HUNGRY
+[89] Philosop[8h9e]r  P1hil:osophe rF I0N:I SHED EATING
+[89] PhEiATloIsNoG wipther 1: hT Hforks 0 IaNnKING d( c1y
+c[l9e0[]  4P9h0/[]5ilosopher 2: )9
+E A0TPhilINGo swiothp hfeorr]k s  P32: ha nFd 3
+INISHED iElAoTsIoNpher 4: GH
+U[NG90] RY
+Philosopher 3: THINKING (cycle 4/5)
+[93] Philosopher 1: HUNGRY
+[[[[99994[4]9] Phil4o 4P]hilo ]s osPopphilosopher 1: EATING wh4ietrh 0: F hIeNfroIrksS ]PH E1 PDhilosopher 3: HUNGRY
+EATING
+[95] Philosop her 0a2:n h:iTlHdI N2o K
+ING (cyFcle 4I/5)
+NsIopSher 4HED E:AT IENATGI
+[95N]G  Phwiiltosho fporks 0h and 4
+er 2: THINKING (cycle 4/5)
+[98] Philosopher 0: HUNGRY
+[[99] Phi9l9o]so Phpiher 1l:o FsIophNeIrS HED 2E: HUANTGIRNY
+G
+[99] Philosopher 1: THINKING (cycle 5/5)
+[1[01000] Phi]l osopPhheirl o3s:[o EphAeTrIN G1 0with forks 3 :a0 n0d E4A
+T] IPNG hiwitlosophhe fro rks 04 : FINISandH E1D
+ EATING
+[101] Philosopher 4: THINKING (cycle 4/5)
+[102] Philosopher 1: HUNGRY
+[104] Philosopher [[1104] Philos0o44]:p hP ehril o2s:o pEheArH 3T:UINNGG FINISHED EATING
+[104] Philosophe rw i3tRh :fY
+[[ 1oT1H0r5I]k sPNh 025 ]a nPdi Khlio3s
+oIpNG (cycle 5/h5er 0)
+losop:h eFrI N4: EATING withI SfHoErDk EATINs 0 Gand 4
+
+[105] Philosopher 0: THINKING (cycle 5/5)
+[108] Philosopher 3: HUNGRY
+[109] Philos[109] o[Phpihleosopher 10r92 ]:[0  PhiF:lo sHopUhNeGrR I1Y1N0
+:I EATING with foSrH[E10kDs EATI N91 a] Phin9] PhidG
+[110 ]2
+Plhoislloopsheophoer r3 :2s:o  TEHINKINGA pThI(cycle 5/N5Ge)r
+ w i4th f:o rFINkIsS H3E Dand E AT4ING
+
+[111] Philosopher 4: THINKING (cycle 5/5)
+[113] Philosopher 2: HUNGRY
+[11[[411114]4] ]  PPhhilosophielroPs o0:p hhEAeTiIrN G1l:  wFiotshI NfooIrSkpsH h0Ee rand 1D
+  4EAT:ING
+[ 1HUNGRY1
+4] Phi[l[o1s1o5p]h er P1:h DOiNloEs1 1A5LoL pC]YhCeLES
+r  2:P hEiAlTIoNsGop hweirt h3:  forFkIs 2 and 3
+NISHED EATING
+[115] Philosopher 3: DONE ALL CYCLES
+[[111188] Philosopher 0: FINISHED EATING
+[1]1 Philoso8p] Philhero so4p: EAThIer 0: DONENG with f oArkLsL  0C YaCLnEdS[
+114
+9] Philosopher 2: FINISHED EATING
+[119] Philosopher 2: DONE ALL CYCLES
+[123] Philosopher 4: FINISHED EATING
+[123] Philosopher 4: DONE ALL CYCLES
+All philosophers completed successfully. No deadlock occurred.
