@@ -1,0 +1,14 @@
+Script started on 2026-09-08 15:13:47+00:00 [COMMAND="make CPUS=1 qemu" <not executed on terminal>]
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 1 -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+
+xv6 kernel is booting
+
+init: starting sh
+$ resourceorder bad
+[bad] Starting intentional circular wait; stop xv6 with Ctrl-A X or timeout
+[bad] Process A acquired Lock1
+[bad] Process B acquired Lock2
+[bad] Process A waiting for Lock2
+[bad] Process B waiting for Lock1
+
+Script done on 2026-09-08 15:13:59+00:00 [COMMAND_EXIT_CODE="0"]

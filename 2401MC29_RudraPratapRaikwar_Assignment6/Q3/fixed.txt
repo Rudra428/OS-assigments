@@ -1,0 +1,23 @@
+Script started on 2026-09-08 15:13:30+00:00 [COMMAND="make CPUS=1 qemu" <not executed on terminal>]
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 1 -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+
+xv6 kernel is booting
+
+init: starting sh
+$ resourceorder fixed
+[fixed] Process 0 requesting Lock1
+[fixed] Process 0 acquired Lock1
+[fixed] Process 1 requesting Lock1
+[fixed] Process 0 requesting Lock2
+[fixed] Process 0 acquired Lock2
+[fixed] Process 0 completed work
+[fixed] Process 0 released Lock2 and Lock1
+[fixed] Process 1 acquired Lock1
+[fixed] Process 1 requesting Lock2
+[fixed] Process 1 acquired Lock2
+[fixed] Process 1 completed work
+[fixed] Process 1 released Lock2 and Lock1
+[fixed] Both processes completed: YES
+$ init: starting sh
+$ 
+Script done on 2026-09-08 15:13:47+00:00 [COMMAND_EXIT_CODE="0"]

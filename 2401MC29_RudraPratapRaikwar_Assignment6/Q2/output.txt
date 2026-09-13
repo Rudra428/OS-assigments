@@ -1,0 +1,46 @@
+Script started on 2026-09-08 15:11:39+00:00 [COMMAND="make CPUS=1 qemu" <not executed on terminal>]
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 1 -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+
+xv6 kernel is booting
+
+init: starting sh
+$ deadlockdetect
+Resource Allocation Graph Deadlock Detection
+
+Scenario A: acyclic wait-for graph
+Allocation:
+  P0: 1 0 0
+  P1: 0 1 0
+  P2: 0 0 1
+  P3: 0 0 0
+Request:
+  P0: 0 1 0
+  P1: 0 0 1
+  P2: 0 0 0
+  P3: 1 0 0
+Wait-for graph edges:
+  P0 -> P1
+  P1 -> P2
+  P3 -> P0
+Result: NO DEADLOCK (graph is acyclic)
+
+Scenario B: three-process circular wait
+Allocation:
+  P0: 1 0 0
+  P1: 0 1 0
+  P2: 0 0 1
+  P3: 0 0 0
+Request:
+  P0: 0 1 0
+  P1: 0 0 1
+  P2: 1 0 0
+  P3: 0 0 0
+Wait-for graph edges:
+  P0 -> P1
+  P1 -> P2
+  P2 -> P0
+Result: DEADLOCK DETECTED
+Cycle: P0 -> P1 -> P2 -> P0
+$ init: starting sh
+$ 
+Script done on 2026-09-08 15:11:53+00:00 [COMMAND_EXIT_CODE="0"]

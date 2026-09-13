@@ -1,0 +1,13 @@
+Q4 - Combined synchronization and deadlock avoidance
+
+`syncdeadlock` creates five real xv6 children. The three shared resource
+types are Printer (capacity 2), Scanner (capacity 1), and Disk (capacity 2).
+Each child uses exactly two resource types and repeats its work for three
+cycles.
+
+The existing xv6 shared-memory and semaphore system calls are reused. Each
+resource pool is represented by a counting semaphore. Every child acquires
+its two resources in the global order Printer < Scanner < Disk, performs
+work, and releases them. Because all acquisition follows one order, circular
+wait cannot form. The completion counters in shared memory verify that every
+child finishes all cycles.

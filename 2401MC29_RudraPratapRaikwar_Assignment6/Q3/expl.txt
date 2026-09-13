@@ -1,0 +1,12 @@
+Q3 - Deadlock prevention using resource ordering
+
+The `resourceorder` program has two modes. In `bad` mode, two real xv6
+children acquire different semaphores first: Process A holds Lock1 while
+waiting for Lock2, and Process B holds Lock2 while waiting for Lock1. This
+creates circular wait, so the parent and children remain blocked. Run this
+mode only with a timeout or stop QEMU with Ctrl-A X.
+
+In `fixed` mode, both children acquire Lock1 before Lock2 and release them in
+the reverse order. The global order removes the possibility of circular wait,
+so one child completes and releases both locks before the other child
+completes.

@@ -1,0 +1,93 @@
+Script started on 2026-09-08 15:12:23+00:00 [COMMAND="make CPUS=1 qemu" <not executed on terminal>]
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 1 -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+
+xv6 kernel is booting
+
+init: starting sh
+$ syncdeadlock
+syncdeadlock: global order Printer < Scanner < Disk
+syncdeadlock: capacities Printer=2 Scanner=1 Disk=2
+P0 cycle 1: requesting Printer
+P0 cycle 1: granted Printer
+P0 cycle 1: requesting Scanner
+P0 cycle 1: granted Scanner; starting work
+P1 cycle 1: reqP2 cycle 1: requesting Scanner
+P3 cycle 1: requesting Printer
+P3 cycle 1: granted Printer
+P3 cycle 1: requesting Scanner
+P4 cycle 1: requesting Scanner
+P0 cycle 1: releasing Scanner and Printer
+P0 cycle 2: requesting Printer
+P0 cycle 2: granted Printer
+P0 cycle 2: requestiuesting Printer
+P2 cycle 1: granted Scanner
+P2 cycle 1: requesting Disk
+P2 cycle 1: granted Disk; starting work
+ng ScanneP2 cycle 1: releasing Disk and Scanner
+P2 cycle 2: requesting Scanner
+P2 cycle 2: gr
+ranted Scanner
+P2 cycle 2: requesting Disk
+P2 cycle 2: granted Disk; starting work
+P2 cycle 2: releasing Disk and Scanner
+P2 cycle 3: requesting Scanner
+P2 cycle 3: granted Scanner
+P2 cycle 3: requesting Disk
+P2 cycle 3: granted Disk; starting work
+P2 cycle 3: releasing Disk and Scanner
+P2 completed 3 cycles
+P3 cycle 1: granted Scanner; starting work
+P3 cycle 1: releasing Scanner and Printer
+P3 cycle 2: requesting Printer
+P3 cycle 2: granted Printer
+P3 cycle 2: requesting Scanner
+P4 cycle 1: granted Scanner
+P4 cycle 1: requesting Disk
+P4 cycle 1: granted Disk; starting work
+P4 cycle 1: releasing Disk and Scanner
+P4 cycle 2: requesting Scanner
+P4 cycle 2: granted Scanner
+P4 cycle 2: requesting Disk
+P4 cycle 2: granted Disk; starting work
+P4 cycle 2: releasing Disk and Scanner
+P4 cycle 3: requesting Scanner
+P4 cycle 3: granted Scanner
+P4 cycle 3: requesting Disk
+P4 cycle 3: granted Disk; starting work
+P4 cycle 3: releasing Disk and Scanner
+P4 completed 3 cycles
+P0 cycle 2: granted Scanner; starting work
+P0 cycle 2: releasing Scanner and Printer
+P0 cycle 3: requesting Printer
+P0 cycle 3: granted Printer
+P0 cycle 3: requesting Scanner
+P0 cycle 3: granted Scanner; starting work
+P0 cycle 3: releasing Scanner and Printer
+P0 completed 3 cycles
+P1 cycle 1: granted Printer
+P1 cycle 1: requesting Disk
+P1 cycle 1: granted Disk; starting work
+P3 cycle 2: granted Scanner; starting work
+P1 cycle 1: releasing Disk and Printer
+P1 cycle 2: requesting Printer
+P1 cycle 2: granted Printer
+P1 cycle 2: requesting Disk
+P1 cycle 2: granted Disk; starting work
+P1 cycle 2: releasing Disk and Printer
+P1 cycle 3: requesting Printer
+P1 cycle 3: granted Printer
+P1 cycle 3: requesting Disk
+P1 cycle 3: granted Disk; starting work
+P3 cycle 2: releasing Scanner and Printer
+P3 cycle 3: requesting Printer
+P3 cycle 3: granted Printer
+P3 cycle 3: requesting ScaP1 cycle 3: releasing Disk and Printer
+P1 completed 3 cycles
+nner
+P3 cycle 3: granted Scanner; starting work
+P3 cycle 3: releasing Scanner and Printer
+P3 completed 3 cycles
+syncdeadlock: all processes completed=YES
+$ init: starting sh
+$ 
+Script done on 2026-09-08 15:12:45+00:00 [COMMAND_EXIT_CODE="0"]
