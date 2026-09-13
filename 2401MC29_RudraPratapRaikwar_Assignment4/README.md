@@ -1,4 +1,4 @@
-# OS Assignment 4 - Process Synchronization
+# OS Assignment 5 - Process Synchronization
 
 **Name**: Rudra Pratap Raikwar  
 **Roll Number**: 2401MC29  
