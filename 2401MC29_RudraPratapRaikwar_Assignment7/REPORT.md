@@ -1,18 +1,5 @@
 # Operating Systems Assignment 7
 
-## Build and run
-
-Build the kernel and filesystem from the repository root:
-
-```sh
-make -j4
-make fs.img
-make qemu CPUS=3
-```
-
-At the xv6 shell, run `threadtest`, `synctest`, `deadlock`, and `priotest`.
-Their output is also captured in the results below. The source tree includes
-the four programs in the filesystem image through the `UPROGS` list.
 
 ## Q1 - User threads
 
