@@ -1,4 +1,4 @@
-# Operating Systems Assignment 7 - Consolidated Report
+# Operating Systems Assignment 7 - Report
 
 ## Question 1 — Implementing User-Level Threads
 
